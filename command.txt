@@ -13,7 +13,8 @@ https://chaeyoung2.tistory.com/43
 -> pull, fetch + merge 이해를 위한 데모 
 
 
-
+https://velog.io/@junghyunhao/git-%EC%93%B0%EB%8A%94-%EA%B2%83-%EB%A7%90%EA%B3%A0-%EB%8D%94-%EC%8D%A8%EB%B3%B4%EA%B8%B0
+-> 매우좋음 
 
 # 기본 
 
@@ -41,15 +42,18 @@ https://chaeyoung2.tistory.com/43
     4. git remote - v 
 
 
-	5. git push [remote name = origin] [branch name]
+	5. git push [remote name = origin] [branch name]   // 조심해야할 것이 브랜치 이름은 해당 로컬을 의미한다
 
-	6. git pull [remote name = origin] [branch name]
+	6. git pull [remote name = origin] [branch name] // 이건 어디꺼지 
 
 	7. git fetch [remote name =orgin]
 
 	8. git merge [remote name] / [branch]
 
+        git merge origin/master
 
+        이게 가능한 이유는 ...  
+        원래 git merge [branch name]를 하면 해당 이름 브랜치가 현재 브랜치에 마지 된다. 위의 merge는 그냥 앞에 리모트만 추가된것 
 
 
 # branch 관련 
@@ -70,6 +74,8 @@ https://chaeyoung2.tistory.com/43
 
 
 	7. git branch -d [name] : 해당 이름을 가진 branch 삭세 
+
+    8. git branch -M [name] : 해당 이름으로 변경 
 
 
 # 정리 
