@@ -97,3 +97,5 @@ https://velog.io/@junghyunhao/git-%EC%93%B0%EB%8A%94-%EA%B2%83-%EB%A7%90%EA%B3%A
     7. local -> remote push 
 
     8. 기타 주제 : git clone  / pull request 
+
+    9. hello this is for test for git command 
